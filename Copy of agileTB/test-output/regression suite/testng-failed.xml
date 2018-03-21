@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression suite]">
+  <listeners>
+    <listener class-name="com.amtrak.Amtrak.customListener.RetryListener"/>
+  </listeners>
+  <test name="TC002_VerifyRegistration">
+    <classes>
+      <class name="com.amtrak.Amtrak.homepage.TC002_VerifyRegistration"/>
+    </classes>
+  </test> <!-- TC002_VerifyRegistration -->
+  <test name="TC002_VerifyRegistration(failed)">
+    <classes>
+      <class name="com.amtrak.Amtrak.homepage.TC002_VerifyRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="testLogIn"/>
+        </methods>
+      </class> <!-- com.amtrak.Amtrak.homepage.TC002_VerifyRegistration -->
+    </classes>
+  </test> <!-- TC002_VerifyRegistration(failed) -->
+</suite> <!-- Failed suite [regression suite] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\galif\Desktop\eclipse 131 workplace\agileTB\src\main\java\com\contact\screenshot\testLogIn_21_03_2018_08_34_05.png'><img src='C:\Users\galif\Desktop\eclipse 131 workplace\agileTB\src\main\java\com\contact\screenshot\testLogIn_21_03_2018_08_34_05.png' height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="application form" duration-ms="7867" started-at="2018-03-21T12:33:58Z" finished-at="2018-03-21T12:34:06Z">
+    <groups>
+    </groups>
+    <test name="AMTC001 test" duration-ms="7867" started-at="2018-03-21T12:33:58Z" finished-at="2018-03-21T12:34:06Z">
+      <class name="com.contact.homepage.AMTC001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.contact.homepage.AMTC001@6e1567f1]" name="setup" is-config="true" duration-ms="5441" started-at="2018-03-21T08:33:59Z" finished-at="2018-03-21T08:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogIn()[pri:0, instance:com.contact.homepage.AMTC001@6e1567f1]" name="testLogIn" duration-ms="1640" started-at="2018-03-21T08:34:04Z" finished-at="2018-03-21T08:34:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\galif\Desktop\eclipse 131 workplace\agileTB\src\main\java\com\contact\screenshot\testLogIn_21_03_2018_08_34_05.png'><img src='C:\Users\galif\Desktop\eclipse 131 workplace\agileTB\src\main\java\com\contact\screenshot\testLogIn_21_03_2018_08_34_05.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.contact.homepage.AMTC001@6e1567f1]" name="endTest" is-config="true" duration-ms="768" started-at="2018-03-21T08:34:06Z" finished-at="2018-03-21T08:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.contact.homepage.AMTC001 -->
+    </test> <!-- AMTC001 test -->
+  </suite> <!-- application form -->
+</testng-results>

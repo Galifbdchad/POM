@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [regression testing]" parallel="classes">
+  <listeners>
+    <listener class-name="com.amtrak.Amtrak.customListener.RetryListener"/>
+  </listeners>
+  <test name="verifyFacebook">
+    <classes>
+      <class name="com.amtrak.Amtrak.addtoCart.VerifyFacebookTC001"/>
+    </classes>
+  </test> <!-- verifyFacebook -->
+  <test name="verifyFacebook(failed)" parallel="classes">
+    <classes>
+      <class name="com.amtrak.Amtrak.addtoCart.VerifyFacebookTC001">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyfacebooklink"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.amtrak.Amtrak.addtoCart.VerifyFacebookTC001 -->
+    </classes>
+  </test> <!-- verifyFacebook(failed) -->
+</suite> <!-- Failed suite [regression testing] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression test]">
+  <listeners>
+    <listener class-name="com.amtrak.Amtrak.customListener.Listener"/>
+  </listeners>
+  <test name="AMTC003">
+    <classes>
+      <class name="com.amtrak.Amtrak.homepage.AMTC3WellsFargo"/>
+    </classes>
+  </test> <!-- AMTC003 -->
+</suite> <!-- Failed suite [regression test] -->

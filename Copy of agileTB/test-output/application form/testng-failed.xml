@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [application form]">
+  <test name="AMTC001 test">
+    <classes>
+      <class name="com.contact.homepage.AMTC001"/>
+    </classes>
+  </test> <!-- AMTC001 test -->
+</suite> <!-- Failed suite [application form] -->
